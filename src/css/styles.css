@@ -211,7 +211,7 @@ header {
 }
 
 .cita {
-   margin: 0;
+   margin: 2rem 0 4rem 0;
    padding-left: 1rem;
    color: #212121;
    border-left: 4px solid #212121;
@@ -418,7 +418,7 @@ input:focus {
 
 /* -------- Footer -------- */
 
-footer {
+body > footer {
    block-size: 174px;
    padding: 3rem 0;
    background-color: #212429;
