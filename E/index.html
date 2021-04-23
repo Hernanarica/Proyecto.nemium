@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="src/css/styles.css"/>
-		<title>Test</title>
+		<title>Nemium</title>
 	</head>
 	<body>
-		<div class="header">
-			<div class="pattern">
-				<div class="pattern__fx"></div>
-			</div>
-		</div>
+		<!--		<div class="header">-->
+		<!--			<div class="pattern">-->
+		<!--				<div class="pattern__fx"></div>-->
+		<!--			</div>-->
+		<!--		</div>-->
 		<main>
 			<div class="wrapper">
 				<header>
@@ -21,19 +23,19 @@
 							<nav class="section-menu__navbar">
 								<ul class="section-menu__menu">
 									<li class="section-menu__item">
-										<a href="index.html" class="section-menu__link">Nemium A</a>
+										<a href="../index.html" class="section-menu__link">Nemium A</a>
 									</li>
 									<li class="section-menu__item">
-										<a href="B/index.html" class="section-menu__link">Nemium B</a>
+										<a href="../B/index.html" class="section-menu__link">Nemium B</a>
 									</li>
 									<li class="section-menu__item">
-										<a href="C/index.html" class="section-menu__link">Nemium C</a>
+										<a href="../C/index.html" class="section-menu__link">Nemium C</a>
 									</li>
 									<li class="section-menu__item">
-										<a href="D/index.html" class="section-menu__link">Nemium D</a>
+										<a href="../D/index.html" class="section-menu__link">Nemium D</a>
 									</li>
 									<li class="section-menu__item">
-										<a href="E/index.html" class="section-menu__link">Nemium E</a>
+										<a href="index.html" class="section-menu__link">Nemium E</a>
 									</li>
 								</ul>
 							</nav>
@@ -156,23 +158,27 @@
 				</section>
 				<section class="section__content">
 					<article class="concept">
-						<h2 class="concept__title">Conceptos esenciales del Desarrollo Web</h2>
+						<h2 class="concept__title">Conceptos esenciales del
+							<br>
+							Desarrollo Web
+						</h2>
 						<div id="queeshtml" class="concept__description">
-							<div class="concept__name">Qué es HTML</div>
+							<div class="concept__name">HTML</div>
 							<p class="concept__text">Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la
 								estructura del contenido.
 							</p>
 							<pre>
 &lt;!DOCTYPE html&gt;
-	&lt;html lang=&quot;en&quot;&gt;
-	&lt;head&gt;
-	&lt;meta charset=&quot;UTF-8&quot;&gt;
-	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-	&lt;title&gt;Document&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-	
-	&lt;/body&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
 &lt;/html&gt;
 							</pre>
 						</div>
@@ -211,10 +217,9 @@
 							</p>
 						</div>
 						<div id="queescss" class="concept__description">
-							<div class="concept__name">DOM</div>
-							<p class="concept__text">El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera:
-								padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es
-								nuestro proyecto.
+							<div class="concept__name">CSS</div>
+							<p class="concept__text">Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la
+								presentación de documentos HTML
 							</p>
 							<div class="concept__image-container">
 								<img src="src/img/css__image.jpg" alt="CSS image">
@@ -279,15 +284,19 @@
 								</div>
 							</div>
 							<p class="box-model-contact">Si tienes alguna pregunta escríbeme a
-								<span>me@leonidasesteban.com</span>
+								<a href="#">me@leonidasesteban.com</a>
 							</p>
 						</div>
 					</div>
 					<div class="box-model__suscribe">
 						<p class="box-model__suscribe-title">Suscríbete a nuestro newsletter</p>
 						<div class="box-model__suscribe-contact">
-							<input type="text" placeholder="Nombre">
-							<input type="text" placeholder="Correo electrónico">
+							<div>
+								<input type="text" placeholder="Nombre">
+							</div>
+							<div>
+								<input type="text" placeholder="Correo electrónico">
+							</div>
 							<button type="submit">Suscribirme</button>
 						</div>
 					</div>
